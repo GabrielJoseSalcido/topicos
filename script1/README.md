@@ -1,1 +1,3 @@
-Lorem ipsum
+Este script genera cinco contenedores en HTML y les asigna un color al azar.
+
+La función numeroEnteroAleatorio() acepta un número entero cómo parámetro y retorna un número entero aleatorio entre 0 inclusivo y 'max' exclusivo. En cada itereación del ciclo for, creamos un contenedor 'div', luego creamos un string con el formato 'rgb(n1, n2, n3)' donde n1, n2 y n3 son números enteros generados con la función numeroEnteroAleatorio(). Usamos este string para configurar el color del contenedor, y el tamaño de los contenedores se define automáticamente. Finalmente agregamos el contenedor a la página.
